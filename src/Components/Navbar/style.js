@@ -10,6 +10,10 @@ export const NavbarSection = styled.div`
 export const Logo = styled.div`
   width: 50%;
   float: left;
+  @media (max-width: 991px) {
+    width: 100%;
+    float: none;
+  }
 `;
 
 export const LogoText = styled.h2`
@@ -21,8 +25,22 @@ export const UlList = styled.ul`
   float: left;
   list-style: none;
   padding: 0;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+    display: none;
+  }
 `;
-export const ListItem = styled.li`display: inline-block;`;
+export const ListItem = styled.li`
+  display: inline-block;
+
+  @media (max-width: 991px) {
+    display: block;
+    text-align: center;
+  }
+`;
 
 export const Anchor = styled(Link)`
   display: block;
@@ -34,28 +52,3 @@ export const Anchor = styled(Link)`
     color: #eb5424;
   }
 `;
-
-// @media (min-width : 992px) {
-//     .navbar label {
-//         display: none
-//     }
-// }
-
-// @media (max-width : 991px) {
-//     .navbar .logo {
-//         width: 100%;
-//         float: none;
-//     }
-
-//     .navbar .ul-list {
-//         width: 100%;
-//         float:  none;
-//         margin-top: 20px;
-//         display: none
-//     }
-
-//     .navbar .ul-list .list-item {
-//         display: block;
-//         text-align: center;
-//     }
-// }
