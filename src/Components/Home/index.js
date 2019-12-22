@@ -3,9 +3,9 @@ import { HomeSection, HomeInformation, HomeTitle, HomeInfo, HomeDesc, HomeBtn } 
 const Home = () => {
   return (
     <HomeSection>
-      <div class="container">
+      <div className="container">
         <HomeInformation>
-          <HomeTitle class="margin-bottom">Hamza Nabil</HomeTitle>
+          <HomeTitle className="margin-bottom">Hamza Nabil</HomeTitle>
           <HomeInfo>Creative Director</HomeInfo>
           <HomeDesc>
             Iam a professional <span>UX Designer</span> and Front-End Developer creating modern and resposive designs to
