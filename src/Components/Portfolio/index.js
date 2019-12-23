@@ -15,7 +15,6 @@ const Portfolio = () => {
   const [ images, setImages ] = useState([]);
   useEffect(() => {
     axios.get('js/data.json').then((res) => setImages(res.data.portfolio));
-    axios.get('js/data.json').then((res) => console.log(res));
   }, []);
   const PortfolioImages = images.map((item) => {
     return (

@@ -74,4 +74,22 @@
             "body" : "Social Pinterest"
         }
     ] 
+    ,
+    "skills" : [
+        {
+            "id": 1,
+            "perc" : "100%",
+            "title" : "Follow Me on"
+         },
+        {
+            "id": 2,
+            "perc" : "90%",
+            "title" : "Javascript"
+         },
+        {
+            "id": 3,
+            "perc" : "80%",
+            "title" : "Angular"
+         }
+    ] 
 }
